@@ -1,3 +1,4 @@
+package com.imc;
 
 public class IMC {
     public static void main(String[] args) {
@@ -5,6 +6,7 @@ public class IMC {
         double height = 1.81;
 
         double imc = calcularIMC(height, weight);
+        System.out.println(Math.round(imc));
         diagnosis(imc);
 
     }
